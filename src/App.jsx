@@ -109,7 +109,7 @@ function App() {
                                     Sebagai Junior Web Developer, Saya mempunyai
                                     tekad yang tinggi untuk menggali pengetahuan
                                     yang luas dibidang teknologi. Saya lulus
-                                    Bootcamp Web Developer &nbsp;
+                                    Bootcamp Web Developer&nbsp;
                                     <a
                                         className="text-blue-500"
                                         href="https://www.harisenin.com/"
@@ -346,8 +346,8 @@ function App() {
                                     2024
                                 </h3>
                                 <p>
-                                    Lulus Dari Bootcamp Fullstack Web Developer
-                                    &nbsp;
+                                    Lulus Dari Bootcamp Fullstack Web
+                                    Developer&nbsp;
                                     <a
                                         className="text-blue-500"
                                         href="https://www.harisenin.com/"
