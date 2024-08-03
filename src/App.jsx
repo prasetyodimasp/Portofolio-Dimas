@@ -4,6 +4,7 @@ import Dimas from "./assets/Dimas.png";
 import Male from "./assets/Malefashion.png";
 import ArrowUp from "./assets/arrow-up.svg";
 import CSS from "./assets/css.svg";
+import GIT from "./assets/git.svg";
 import GITHUB from "./assets/github.png";
 import GMAIL from "./assets/gmail.svg";
 import HTML from "./assets/html.svg";
@@ -105,10 +106,10 @@ function App() {
                             </div>
                             <div>
                                 <p className="mt-3 text-gray-400">
-                                    Sebagai Junior Web Developer saya mempunyai
-                                    tekat yang tinggi untuk menggali yang luas
-                                    dibidang tehnologi, saya lulus dari Bootcamp
-                                    Web Developer{" "}
+                                    Sebagai Junior Web Developer, saya mempunyai
+                                    tekad yang tinggi untuk menggali pengetahuan
+                                    yang luas dibidang teknologi. Saya lulus
+                                    Bootcamp Web Developer
                                     <a
                                         className="text-blue-600"
                                         href="https://www.harisenin.com/"
@@ -117,9 +118,10 @@ function App() {
                                         Harisenin.com
                                     </a>
                                     &nbsp;menguasai beberapa bahasa pemrograman
-                                    Ayo berteman di mediaa sosisal saya.
+                                    dan tools yang Powerfull. Ayo berteman di
+                                    media sosial Saya.
                                 </p>
-                                <div className="container m-auto flex justify-between px-4 py-6">
+                                <div className="container m-auto flex  justify-center sm:justify-between px-4 py-6">
                                     <div>
                                         <ul className="flex gap-4">
                                             <li>
@@ -186,18 +188,18 @@ function App() {
                 </section>
                 {/* Skills*/}
                 <section id="skills">
-                    <div className="container mt-8 px-4 py-12">
-                        <h2 className="text-2xl font-semibold text-blue-500">
+                    <div className="container m-auto px-4 sm:py-12">
+                        <h2 className="text-2xl text-center font-semibold text-blue-500 sm:text-left">
                             Skllis
                         </h2>
-                        <div className="flex flex-col sm:flex-row gap-10 mt-10">
+                        <div className="flex flex-col sm:flex-row gap-5 mt-8">
                             <div class="flex flex-col items-center">
                                 <img
                                     src={HTML}
                                     alt="html icon"
-                                    class="w-24 h-24"
+                                    class="w-20 h-20"
                                 />
-                                <p class="font-semibold mt-3 text-[#cccccc]">
+                                <p class="font-semibold mt-2 text-[#cccccc]">
                                     HTML
                                 </p>
                             </div>
@@ -205,9 +207,9 @@ function App() {
                                 <img
                                     src={CSS}
                                     alt="css icon"
-                                    class="w-24 h-24"
+                                    class="w-20 h-20"
                                 />
-                                <p class="font-semibold mt-3 text-[#cccccc]">
+                                <p class="font-semibold mt-2 text-[#cccccc]">
                                     CSS
                                 </p>
                             </div>
@@ -215,19 +217,19 @@ function App() {
                                 <img
                                     src={TAILWIND}
                                     alt="tailwind icon"
-                                    class="w-24 h-24"
+                                    class="w-20 h-20"
                                 />
-                                <p class="font-semibold mt-3 text-[#cccccc]">
-                                    TAILWIND
+                                <p class="font-semibold mt-2 text-[#cccccc]">
+                                    TAILWIND CSS
                                 </p>
                             </div>
                             <div class="flex flex-col items-center">
                                 <img
                                     src={JAVASCRIPT}
                                     alt="javascript icon"
-                                    class="w-24 h-24"
+                                    class="w-20 h-20"
                                 />
-                                <p class="font-semibold mt-3 text-[#cccccc]">
+                                <p class="font-semibold mt-2 text-[#cccccc]">
                                     JAVASCRIPT
                                 </p>
                             </div>
@@ -235,19 +237,29 @@ function App() {
                                 <img
                                     src={REACT}
                                     alt="react icon"
-                                    class="w-24 h-24"
+                                    class="w-20 h-20"
                                 />
-                                <p class="font-semibold mt-3 text-[#cccccc]">
-                                    REACT.JS
+                                <p class="font-semibold mt-2 text-[#cccccc]">
+                                    REACT
+                                </p>
+                            </div>
+                            <div class="flex flex-col items-center">
+                                <img
+                                    src={GIT}
+                                    alt="git icon"
+                                    class="w-20 h-20"
+                                />
+                                <p class="font-semibold mt-2 text-[#cccccc]">
+                                    GIT
                                 </p>
                             </div>
                             <div class="flex flex-col items-center">
                                 <img
                                     src={GITHUB}
                                     alt="github icon"
-                                    class="w-24 h-24"
+                                    class="w-20 h-20"
                                 />
-                                <p class="font-semibold mt-3 text-[#cccccc]">
+                                <p class="font-semibold mt-2 text-[#cccccc]">
                                     GITHUB
                                 </p>
                             </div>
@@ -257,7 +269,7 @@ function App() {
                 {/* Projects section */}
                 <section id="portofolio">
                     <div className="container m-auto px-4 sm:py-12">
-                        <h2 className="text-2xl font-semibold text-blue-500">
+                        <h2 className="text-2xl mt-3 font-semibold text-blue-500">
                             Portofolio
                         </h2>
                         <div className="flex flex-col sm:flex-row gap-5 mt-10">
@@ -267,9 +279,9 @@ function App() {
                                     Membuat Halaman Checkout
                                 </h3>
                                 <p className="text-gray-400 text-sm mt-2">
-                                    Website Belanja checkout yang saya buat
-                                    menggunakan Tailwind CSS dan React Js dann
-                                    Typescript.
+                                    Website Belanja halaman checkout yang saya
+                                    buat menggunakan Tailwind CSS, React dan,
+                                    Node.JS.
                                 </p>
                                 <div className="flex mt-5 gap-4">
                                     <button className="px-4 py-2 border rounded-2xl hover:border-blue-500 hover:text-blue-500">
@@ -288,13 +300,13 @@ function App() {
                                     Portofolio Website Pribadi
                                 </h3>
                                 <p className="text-gray-400 text-sm mt-2">
-                                    Portofolio yang saya buat menggunakan
-                                    Tailwind CSS dan React Js.
+                                    Portofolio Pribadi yang saya buat
+                                    menggunakan Tailwind CSS, React, dan Vite.
                                 </p>
                                 <div className="flex gap-4 mt-5">
                                     <button className="px-4 py-2 border rounded-2xl hover:border-blue-500 hover:text-blue-500">
                                         <a
-                                            href="https://github.com/KEL6-HS/backend-final-project"
+                                            href="https://github.com/prasetyodimasp/portofolio-dimas"
                                             target="_blank"
                                         >
                                             Github
@@ -311,7 +323,7 @@ function App() {
                         <h2 className="text-2xl font-semibold text-blue-500">
                             Education
                         </h2>
-                        <div className="mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 sm:before:bottom-2 before:w-1 before:bg-white">
+                        <div className="mt-10 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 sm:before:bottom-2 before:w-1 before:bg-white">
                             <div className="pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
                                 <h3 className="absolute left-0 text-lg font-semibold">
                                     2023
@@ -326,8 +338,8 @@ function App() {
                                     2024
                                 </h3>
                                 <p>
-                                    Lulus Dari Salah Satu Bootcamp Fullstack Web
-                                    Developer &nbsp;
+                                    Lulus Dari Bootcamp Fullstack Web Developer
+                                    &nbsp;
                                     <a
                                         className="text-blue-600"
                                         href="https://www.harisenin.com/"
@@ -342,50 +354,57 @@ function App() {
                 </section>
             </main>
             <footer id="saya">
-                <div className="flex flex-col gap-12 justify-center items-center mt-auto py-20">
+                <div className="container m-auto px-4 sm:py-12 justify-center items-center text-center">
                     <h2 className="text-2xl text-blue-500 font-semibold">
                         Hubungi Saya
                     </h2>
-                    <p className="text-sm font-semibold text-gray-500">
-                        Kamu dapat menghubungi saya dari sini 👇🏻
+                    <p className="text-sm mt-6 font-semibold text-gray-500">
+                        Anda dapat menghubungi saya dari sini 👇🏻
                     </p>
-                    <div className="flex flex-wrap justify-center gap-5 md:gap-5 ">
+                    <div className="flex mt-5 flex-wrap justify-center gap-5 md:gap-5 ">
                         <a
                             href="mailto:prasetyodimasp2711@gmail.com"
                             target="_blank"
                         >
-                            <img src={GMAIL} className="w-10" />
+                            <img src={GMAIL} className="w-8 h-8" />
                         </a>
-                        <a href="https://wa.me/085742724303" target="_blank">
-                            <img src={WA} className="w-10" />
+                        <a
+                            aria-label="Chat on WhatsApp"
+                            href="https://wa.me/085742724303"
+                            target="_blank"
+                        >
+                            <img
+                                alt="Chat on WhatsApp"
+                                src={WA}
+                                className="w-8 h-8"
+                            />
                         </a>
                         <a
                             href="https://www.instagram.com/samiiddddd"
                             target="_blank"
                         >
-                            <img src={Instagram} className="w-10" />
+                            <img src={Instagram} className="w-8 h-8" />
                         </a>
                         <a
                             href="https://github.com/prasetyodimasp"
                             target="_blank"
                         >
-                            <img src={GITHUB} className="w-10" />
+                            <img src={GITHUB} className="w-8 h-8" />
                         </a>
                         <a
                             href="https://www.linkedin.com/in/prasetyodimasp/"
                             target="_blank"
                         >
-                            <img src={LinkedIn} className="w-10" />
+                            <img src={LinkedIn} className="w-8 h-8" />
                         </a>
                     </div>
-
-                    <p className="font-medium text-sm text-gray-500 text-center mb-0">
-                        &copy; 2024 Hak Cipta dengan &nbsp;
-                        <a className="text-blue-500">Prasetyo Dimas Pramono</a>
-                        &nbsp; Menggunakan Tailwind CSS dan React JS.
-                    </p>
                 </div>
             </footer>
+            <p className="font-medium text-sm text-gray-500 mt-12 text-center px-5 py-5">
+                &copy; 2024 Hak Cipta dengan &nbsp;
+                <a className="text-blue-500">Prasetyo Dimas Pramono</a>
+                &nbsp; Menggunakan Tailwind CSS dan React JS.
+            </p>
             {scrolling && (
                 <button
                     className="fixed block right-8 bottom-0 w-24"
