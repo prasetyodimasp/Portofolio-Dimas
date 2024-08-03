@@ -106,12 +106,12 @@ function App() {
                             </div>
                             <div>
                                 <p className="mt-3 text-gray-400">
-                                    Sebagai Junior Web Developer, saya mempunyai
+                                    Sebagai Junior Web Developer, Saya mempunyai
                                     tekad yang tinggi untuk menggali pengetahuan
                                     yang luas dibidang teknologi. Saya lulus
-                                    Bootcamp Web Developer
+                                    Bootcamp Web Developer &nbsp;
                                     <a
-                                        className="text-blue-600"
+                                        className="text-blue-500"
                                         href="https://www.harisenin.com/"
                                         target="_blank"
                                     >
@@ -279,12 +279,16 @@ function App() {
                                     Membuat Halaman Checkout
                                 </h3>
                                 <p className="text-gray-400 text-sm mt-2">
-                                    Website Belanja halaman checkout yang saya
+                                    Website Belanja halaman checkout yang Saya
                                     buat menggunakan Tailwind CSS, React dan,
                                     Node.JS.
                                 </p>
                                 <div className="flex mt-5 gap-4">
-                                    <button className="px-4 py-2 border rounded-2xl hover:border-blue-500 hover:text-blue-500">
+                                    <button className="px-4 py-2 border rounded-2xl hover:bg-blue-600 flex gap-2">
+                                        <img
+                                            className="w-5 h-5 flex"
+                                            src={GITHUB}
+                                        ></img>
                                         <a
                                             href="https://github.com/KEL6-HS/backend-final-project"
                                             target="_blank"
@@ -300,11 +304,15 @@ function App() {
                                     Portofolio Website Pribadi
                                 </h3>
                                 <p className="text-gray-400 text-sm mt-2">
-                                    Portofolio Pribadi yang saya buat
-                                    menggunakan Tailwind CSS, React, dan Vite.
+                                    Portofolio Pribadi yang Saya buat
+                                    menggunakan Tailwind CSS dan React Vite.
                                 </p>
                                 <div className="flex gap-4 mt-5">
-                                    <button className="px-4 py-2 border rounded-2xl hover:border-blue-500 hover:text-blue-500">
+                                    <button className="px-4 py-2 border rounded-2xl hover:bg-blue-600 flex gap-2">
+                                        <img
+                                            className="w-5 h-5 flex"
+                                            src={GITHUB}
+                                        ></img>
                                         <a
                                             href="https://github.com/prasetyodimasp/portofolio-dimas"
                                             target="_blank"
@@ -341,7 +349,7 @@ function App() {
                                     Lulus Dari Bootcamp Fullstack Web Developer
                                     &nbsp;
                                     <a
-                                        className="text-blue-600"
+                                        className="text-blue-500"
                                         href="https://www.harisenin.com/"
                                         target="_blank"
                                     >
@@ -403,7 +411,7 @@ function App() {
             <p className="font-medium text-sm text-gray-500 mt-12 text-center px-5 py-5">
                 &copy; 2024 Hak Cipta dengan &nbsp;
                 <a className="text-blue-500">Prasetyo Dimas Pramono</a>
-                &nbsp; Menggunakan Tailwind CSS dan React JS.
+                &nbsp; Menggunakan Tailwind CSS dan Vite React.
             </p>
             {scrolling && (
                 <button
